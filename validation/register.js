@@ -22,6 +22,11 @@ module.exports = function validateRegisterInput(data) {
     errors.email = "Email is invalid";
   }
 
+   // Role checks
+  if (Validator.isEmpty(data.role)) {
+    errors.name = "Role field is required";
+  }
+  
   // Password checks
   if (Validator.isEmpty(data.password)) {
     errors.password = "Password field is required";
