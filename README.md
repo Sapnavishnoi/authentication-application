@@ -1,6 +1,6 @@
 # Authentication application
 
-This project uses the following technologies:
+This project uses the following technologies: 
 
 - React for frontend
 - Express and Node for the backend
